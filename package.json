@@ -1,0 +1,22 @@
+{
+    "name": "gas-tracker",
+    "version": "1.0.0",
+    "description": "A Tool to estimate gas costs for Solidity contracts",
+    "main": "src/gasTracker.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "dependencies": {
+      "solc": "^0.8.0",
+      "web3": "^1.5.0",
+      "ganache": "^7.4.3",
+      "yargs": "^17.4.0"
+    },
+    "devDependencies": {
+      "mocha": "^10.2.0",
+      "chai": "^4.3.7"
+    },
+    "author": "Awortu Ibenem",
+    "license": "ISC"
+  }
+  
